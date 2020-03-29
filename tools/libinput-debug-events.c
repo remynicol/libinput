@@ -24,13 +24,15 @@ static uint32_t start_time;
 static const uint32_t screen_width = 100;
 static const uint32_t screen_height = 100;
 static struct tools_options options;
-static bool show_keycodes;
 static volatile sig_atomic_t stop = 0;
-static bool be_quiet = false;
-
 static char touch_buffer[5];
 
-#define printq(...) ({ if (!be_quiet)  printf(__VA_ARGS__); })
+struct Command
+{
+	char *event, *action;
+	void* next;
+};
+static struct Command* commands = NULL;
 
 static char
 coord_to_zone(double x, double y)
@@ -49,7 +51,12 @@ coord_to_zone(double x, double y)
 }
 
 static void
-print_touch_event_with_coords(struct libinput_event *ev)
+event_to_command(int nb) {
+
+}
+
+static void
+touch_event(struct libinput_event *ev)
 {
 	struct libinput_event_touch *t = libinput_event_get_touch_event(ev);
 	int32_t nb = libinput_event_touch_get_slot(t);
@@ -60,18 +67,12 @@ print_touch_event_with_coords(struct libinput_event *ev)
 		return;
 
 	touch_buffer[nb] = coord_to_zone(x, y);
-
-	if (nb == 3)
-		system("touch /tmp/3fingers");
-
-	for (int i = 0; i <= nb; i++)
-		printq("%c", touch_buffer[i]);
-
-	printq("\n");
+	if (nb > 0)
+		event_to_command(nb);
 }
 
 static int
-handle_and_print_events(struct libinput *li)
+handle_and_manage_events(struct libinput *li)
 {
 	int rc = -1;
 	struct libinput_event *ev;
@@ -79,7 +80,7 @@ handle_and_print_events(struct libinput *li)
 	libinput_dispatch(li);
 	while ((ev = libinput_get_event(li))) {
 		if (libinput_event_get_type(ev) == LIBINPUT_EVENT_TOUCH_DOWN)
-			print_touch_event_with_coords(ev);
+			touch_event(ev);
 		
 		libinput_event_destroy(ev);
 		libinput_dispatch(li);
@@ -104,7 +105,7 @@ mainloop(struct libinput *li)
 	fds.revents = 0;
 
 	/* Handle already-pending device added events */
-	if (handle_and_print_events(li))
+	if (handle_and_manage_events(li))
 		fprintf(stderr, "Expected device added events on startup but got none. "
 				"Maybe you don't have the right permissions?\n");
 
@@ -115,7 +116,7 @@ mainloop(struct libinput *li)
 		clock_gettime(CLOCK_MONOTONIC, &tp);
 		start_time = tp.tv_sec * 1000 + tp.tv_nsec / 1000000;
 		do {
-			handle_and_print_events(li);
+			handle_and_manage_events(li);
 		} while (!stop && poll(&fds, 1, -1) > -1);
 	}
 
@@ -124,7 +125,7 @@ mainloop(struct libinput *li)
 
 static void
 usage(void) {
-	printf("Usage: libinput debug-events [options] [--udev <seat>|--device /dev/input/event0 ...]\n");
+	printf("Usage: tap_to_command [options] [--cmd 'xx-touch /tmp/test' [with x in 'gdbh' between 2 and 5 times]] [--udev <seat>|--device /dev/input/event0 ...]\n");
 }
 
 int
@@ -148,18 +149,16 @@ main(int argc, char **argv)
 			OPT_UDEV,
 			OPT_GRAB,
 			OPT_VERBOSE,
-			OPT_SHOW_KEYCODES,
-			OPT_QUIET,
+			OPT_CMD,
 		};
 		static struct option opts[] = {
 			CONFIGURATION_OPTIONS,
 			{ "help",                      no_argument,       0, 'h' },
-			{ "show-keycodes",             no_argument,       0, OPT_SHOW_KEYCODES },
 			{ "device",                    required_argument, 0, OPT_DEVICE },
 			{ "udev",                      required_argument, 0, OPT_UDEV },
 			{ "grab",                      no_argument,       0, OPT_GRAB },
 			{ "verbose",                   no_argument,       0, OPT_VERBOSE },
-			{ "quiet",                     no_argument,       0, OPT_QUIET },
+			{ "cmd",                   	   required_argument, 0, OPT_CMD },
 			{ 0, 0, 0, 0}
 		};
 
@@ -167,6 +166,9 @@ main(int argc, char **argv)
 		if (c == -1)
 			break;
 
+		struct Command candidate;
+		bool splitter_found, break_for;
+		int i;
 		switch(c) {
 		case '?':
 			exit(EXIT_INVALID_USAGE);
@@ -175,28 +177,43 @@ main(int argc, char **argv)
 			usage();
 			exit(EXIT_SUCCESS);
 			break;
-		case OPT_SHOW_KEYCODES:
-			show_keycodes = true;
-			break;
-		case OPT_QUIET:
-			be_quiet = true;
-			break;
-		case OPT_DEVICE:
-			if (backend == BACKEND_UDEV ||
-			    ndevices >= ARRAY_LENGTH(seat_or_devices)) {
+		case OPT_CMD:
+			splitter_found = false;
+			break_for = false;
+			for (i = 0; optarg[i] != '\0' && !break_for; i++) {
+				if (optarg[i] == 'g' || optarg[i] == 'h' || optarg[i] == 'b' || optarg[i] == 'd')
+					continue;
+				if (optarg[i] == '-' && i >= 2 && i <= 5) {
+					splitter_found = true;
+					candidate.event = malloc(i+1);
+					strncpy(candidate.event, optarg, i);
+					candidate.event[i] = '\0';
+				}
+				break_for = true;
+			}
+			if (!splitter_found) {
 				usage();
 				return EXIT_INVALID_USAGE;
-
+			}
+			char* action = optarg + i;
+			candidate.action = malloc(strlen(action) + 1);
+			strcpy(candidate.action, action);
+			printf("'%s' - '%s'\n", candidate.event, candidate.action);
+			candidate.next = (void*) commands;
+			commands = &candidate;
+			break;
+		case OPT_DEVICE:
+			if (backend == BACKEND_UDEV || ndevices >= ARRAY_LENGTH(seat_or_devices)) {
+				usage();
+				return EXIT_INVALID_USAGE;
 			}
 			backend = BACKEND_DEVICE;
 			seat_or_devices[ndevices++] = optarg;
 			break;
 		case OPT_UDEV:
-			if (backend == BACKEND_DEVICE ||
-			    ndevices >= ARRAY_LENGTH(seat_or_devices)) {
+			if (backend == BACKEND_DEVICE || ndevices >= ARRAY_LENGTH(seat_or_devices)) {
 				usage();
 				return EXIT_INVALID_USAGE;
-
 			}
 			backend = BACKEND_UDEV;
 			seat_or_devices[0] = optarg;
