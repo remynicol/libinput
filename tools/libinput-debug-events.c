@@ -28,13 +28,25 @@ static bool show_keycodes;
 static volatile sig_atomic_t stop = 0;
 static bool be_quiet = false;
 
-struct TouchCoord
-{
-    double x, y;
-};
-static struct TouchCoord touch_buffer[5];
+static char touch_buffer[5];
 
 #define printq(...) ({ if (!be_quiet)  printf(__VA_ARGS__); })
+
+static char
+coord_to_zone(double x, double y)
+{
+	if (y < 100.0 - x) {
+	  	if (y < x)
+	    	return 'h';
+	  	else
+	    	return 'g';
+	} else {
+		if (y < x)
+	    	return 'd';
+	  	else
+	    	return 'b';
+	}  
+}
 
 static void
 print_touch_event_with_coords(struct libinput_event *ev)
@@ -47,14 +59,13 @@ print_touch_event_with_coords(struct libinput_event *ev)
 	if (nb < 0 || nb >= 5)
 		return;
 
-	touch_buffer[nb].x = x;
-	touch_buffer[nb].y = y;
+	touch_buffer[nb] = coord_to_zone(x, y);
 
 	if (nb == 3)
 		system("touch /tmp/3fingers");
 
 	for (int i = 0; i <= nb; i++)
-		printq("[%d] %5.2fx%5.2f ", i, touch_buffer[i].x, touch_buffer[i].y);
+		printq("%c", touch_buffer[i]);
 
 	printq("\n");
 }
