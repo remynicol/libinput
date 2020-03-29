@@ -826,96 +826,10 @@ handle_and_print_events(struct libinput *li)
 
 	libinput_dispatch(li);
 	while ((ev = libinput_get_event(li))) {
-		print_event_header(ev);
-
-		switch (libinput_event_get_type(ev)) {
-		case LIBINPUT_EVENT_NONE:
-			abort();
-		case LIBINPUT_EVENT_DEVICE_ADDED:
-			print_device_notify(ev);
-			tools_device_apply_config(libinput_event_get_device(ev),
-						  &options);
-			break;
-		case LIBINPUT_EVENT_DEVICE_REMOVED:
-			print_device_notify(ev);
-			break;
-		case LIBINPUT_EVENT_KEYBOARD_KEY:
-			print_key_event(li, ev);
-			break;
-		case LIBINPUT_EVENT_POINTER_MOTION:
-			print_motion_event(ev);
-			break;
-		case LIBINPUT_EVENT_POINTER_MOTION_ABSOLUTE:
-			print_absmotion_event(ev);
-			break;
-		case LIBINPUT_EVENT_POINTER_BUTTON:
-			print_pointer_button_event(ev);
-			break;
-		case LIBINPUT_EVENT_POINTER_AXIS:
-			print_pointer_axis_event(ev);
-			break;
-		case LIBINPUT_EVENT_TOUCH_DOWN:
+		if (libinput_event_get_type(ev) == LIBINPUT_EVENT_TOUCH_DOWN) {
 			print_touch_event_with_coords(ev);
-			break;
-		case LIBINPUT_EVENT_TOUCH_MOTION:
-			print_touch_event_with_coords(ev);
-			break;
-		case LIBINPUT_EVENT_TOUCH_UP:
-			print_touch_event_without_coords(ev);
-			break;
-		case LIBINPUT_EVENT_TOUCH_CANCEL:
-			print_touch_event_without_coords(ev);
-			break;
-		case LIBINPUT_EVENT_TOUCH_FRAME:
-			print_touch_event_without_coords(ev);
-			break;
-		case LIBINPUT_EVENT_GESTURE_SWIPE_BEGIN:
-			print_gesture_event_without_coords(ev);
-			break;
-		case LIBINPUT_EVENT_GESTURE_SWIPE_UPDATE:
-			print_gesture_event_with_coords(ev);
-			break;
-		case LIBINPUT_EVENT_GESTURE_SWIPE_END:
-			print_gesture_event_without_coords(ev);
-			break;
-		case LIBINPUT_EVENT_GESTURE_PINCH_BEGIN:
-			print_gesture_event_without_coords(ev);
-			break;
-		case LIBINPUT_EVENT_GESTURE_PINCH_UPDATE:
-			print_gesture_event_with_coords(ev);
-			break;
-		case LIBINPUT_EVENT_GESTURE_PINCH_END:
-			print_gesture_event_without_coords(ev);
-			break;
-		case LIBINPUT_EVENT_TABLET_TOOL_AXIS:
-			print_tablet_axis_event(ev);
-			break;
-		case LIBINPUT_EVENT_TABLET_TOOL_PROXIMITY:
-			print_proximity_event(ev);
-			break;
-		case LIBINPUT_EVENT_TABLET_TOOL_TIP:
-			print_tablet_tip_event(ev);
-			break;
-		case LIBINPUT_EVENT_TABLET_TOOL_BUTTON:
-			print_tablet_button_event(ev);
-			break;
-		case LIBINPUT_EVENT_TABLET_PAD_BUTTON:
-			print_tablet_pad_button_event(ev);
-			break;
-		case LIBINPUT_EVENT_TABLET_PAD_RING:
-			print_tablet_pad_ring_event(ev);
-			break;
-		case LIBINPUT_EVENT_TABLET_PAD_STRIP:
-			print_tablet_pad_strip_event(ev);
-			break;
-		case LIBINPUT_EVENT_TABLET_PAD_KEY:
-			print_tablet_pad_key_event(ev);
-			break;
-		case LIBINPUT_EVENT_SWITCH_TOGGLE:
-			print_switch_event(ev);
-			break;
 		}
-
+		
 		libinput_event_destroy(ev);
 		libinput_dispatch(li);
 		rc = 0;
