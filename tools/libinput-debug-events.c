@@ -50,6 +50,9 @@ print_touch_event_with_coords(struct libinput_event *ev)
 	touch_buffer[nb].x = x;
 	touch_buffer[nb].y = y;
 
+	if (nb == 3)
+		system("touch /tmp/3fingers");
+
 	for (int i = 0; i <= nb; i++)
 		printq("[%d] %5.2fx%5.2f ", i, touch_buffer[i].x, touch_buffer[i].y);
 
@@ -64,9 +67,8 @@ handle_and_print_events(struct libinput *li)
 
 	libinput_dispatch(li);
 	while ((ev = libinput_get_event(li))) {
-		if (libinput_event_get_type(ev) == LIBINPUT_EVENT_TOUCH_DOWN) {
+		if (libinput_event_get_type(ev) == LIBINPUT_EVENT_TOUCH_DOWN)
 			print_touch_event_with_coords(ev);
-		}
 		
 		libinput_event_destroy(ev);
 		libinput_dispatch(li);
