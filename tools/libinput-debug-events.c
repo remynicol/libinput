@@ -120,7 +120,7 @@ mainloop(struct libinput *li)
 		start_time = tp.tv_sec * 1000 + tp.tv_nsec / 1000000;
 		do {
 			handle_and_manage_events(li);
-			usleep(500*1000);
+			usleep(100*1000);
 		} while (!stop && poll(&fds, 1, -1) > -1);
 	}
 
