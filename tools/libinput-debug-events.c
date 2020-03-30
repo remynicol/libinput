@@ -11,6 +11,7 @@
 #include <time.h>
 #include <unistd.h>
 #include "linux/input.h"
+#include "libinput-debug_events.h"
 
 #include <libinput.h>
 #include <libevdev/libevdev.h>
@@ -26,12 +27,6 @@ static const uint32_t screen_height = 100;
 static struct tools_options options;
 static volatile sig_atomic_t stop = 0;
 static char touch_buffer[5];
-
-struct Command
-{
-	char *event, *action;
-	void* next;
-};
 static struct Command* commands = NULL;
 
 static char
@@ -52,7 +47,15 @@ coord_to_zone(double x, double y)
 
 static void
 event_to_command(int nb) {
-
+	char* event = malloc(nb+2);
+	strncpy(event, touch_buffer, nb+1);
+	event[nb+1] = '\0';
+	for (struct Command *cursor = commands; cursor; cursor = (struct Command*) cursor->next)
+		if (strcmp(event, cursor->event) == 0) {
+			system(cursor->action);
+			printf("%s -> %s\n", cursor->event, cursor->action);
+		}
+	free(event);
 }
 
 static void
@@ -117,6 +120,7 @@ mainloop(struct libinput *li)
 		start_time = tp.tv_sec * 1000 + tp.tv_nsec / 1000000;
 		do {
 			handle_and_manage_events(li);
+			usleep(500*1000);
 		} while (!stop && poll(&fds, 1, -1) > -1);
 	}
 
@@ -166,7 +170,7 @@ main(int argc, char **argv)
 		if (c == -1)
 			break;
 
-		struct Command candidate;
+		struct Command *candidate = malloc(sizeof(commands));
 		bool splitter_found, break_for;
 		int i;
 		switch(c) {
@@ -185,9 +189,9 @@ main(int argc, char **argv)
 					continue;
 				if (optarg[i] == '-' && i >= 2 && i <= 5) {
 					splitter_found = true;
-					candidate.event = malloc(i+1);
-					strncpy(candidate.event, optarg, i);
-					candidate.event[i] = '\0';
+					candidate->event = malloc(i+1);
+					strncpy(candidate->event, optarg, i);
+					candidate->event[i] = '\0';
 				}
 				break_for = true;
 			}
@@ -196,11 +200,10 @@ main(int argc, char **argv)
 				return EXIT_INVALID_USAGE;
 			}
 			char* action = optarg + i;
-			candidate.action = malloc(strlen(action) + 1);
-			strcpy(candidate.action, action);
-			printf("'%s' - '%s'\n", candidate.event, candidate.action);
-			candidate.next = (void*) commands;
-			commands = &candidate;
+			candidate->action = malloc(strlen(action) + 1);
+			strcpy(candidate->action, action);
+			candidate->next = (void*) commands;
+			commands = candidate;
 			break;
 		case OPT_DEVICE:
 			if (backend == BACKEND_UDEV || ndevices >= ARRAY_LENGTH(seat_or_devices)) {
@@ -234,6 +237,9 @@ main(int argc, char **argv)
 		}
 
 	}
+
+	for (struct Command *cursor = commands; cursor; cursor = (struct Command*) cursor->next)
+		printf("config: %s -> %s\n", cursor->event, cursor->action);
 
 	if (optind < argc) {
 		if (backend == BACKEND_UDEV) {
