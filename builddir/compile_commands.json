@@ -1,0 +1,902 @@
+[
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-device-group@exe -I. -I.. -I../src -I../include -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes  -MD -MQ 'libinput-device-group@exe/udev_libinput-device-group.c.o' -MF 'libinput-device-group@exe/udev_libinput-device-group.c.o.d' -o 'libinput-device-group@exe/udev_libinput-device-group.c.o' -c ../udev/libinput-device-group.c",
+    "file": "../udev/libinput-device-group.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-fuzz-extract@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes  -MD -MQ 'libinput-fuzz-extract@exe/udev_libinput-fuzz-extract.c.o' -MF 'libinput-fuzz-extract@exe/udev_libinput-fuzz-extract.c.o.d' -o 'libinput-fuzz-extract@exe/udev_libinput-fuzz-extract.c.o' -c ../udev/libinput-fuzz-extract.c",
+    "file": "../udev/libinput-fuzz-extract.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-fuzz-extract@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes  -MD -MQ 'libinput-fuzz-extract@exe/src_util-strings.c.o' -MF 'libinput-fuzz-extract@exe/src_util-strings.c.o.d' -o 'libinput-fuzz-extract@exe/src_util-strings.c.o' -c ../src/util-strings.c",
+    "file": "../src/util-strings.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-fuzz-extract@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes  -MD -MQ 'libinput-fuzz-extract@exe/src_util-prop-parsers.c.o' -MF 'libinput-fuzz-extract@exe/src_util-prop-parsers.c.o.d' -o 'libinput-fuzz-extract@exe/src_util-prop-parsers.c.o' -c ../src/util-prop-parsers.c",
+    "file": "../src/util-prop-parsers.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-fuzz-to-zero@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes  -MD -MQ 'libinput-fuzz-to-zero@exe/udev_libinput-fuzz-to-zero.c.o' -MF 'libinput-fuzz-to-zero@exe/udev_libinput-fuzz-to-zero.c.o.d' -o 'libinput-fuzz-to-zero@exe/udev_libinput-fuzz-to-zero.c.o' -c ../udev/libinput-fuzz-to-zero.c",
+    "file": "../udev/libinput-fuzz-to-zero.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Itest-build-util-bits.h@exe -I. -I.. -I../src -I../include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes  -MD -MQ 'test-build-util-bits.h@exe/meson-generated_.._test-util-includes-util-bits.h.c.o' -MF 'test-build-util-bits.h@exe/meson-generated_.._test-util-includes-util-bits.h.c.o.d' -o 'test-build-util-bits.h@exe/meson-generated_.._test-util-includes-util-bits.h.c.o' -c test-util-includes-util-bits.h.c",
+    "file": "test-util-includes-util-bits.h.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Itest-build-util-input-event.h@exe -I. -I.. -I../src -I../include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes  -MD -MQ 'test-build-util-input-event.h@exe/meson-generated_.._test-util-includes-util-input-event.h.c.o' -MF 'test-build-util-input-event.h@exe/meson-generated_.._test-util-includes-util-input-event.h.c.o.d' -o 'test-build-util-input-event.h@exe/meson-generated_.._test-util-includes-util-input-event.h.c.o' -c test-util-includes-util-input-event.h.c",
+    "file": "test-util-includes-util-input-event.h.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Itest-build-util-list.h@exe -I. -I.. -I../src -I../include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes  -MD -MQ 'test-build-util-list.h@exe/meson-generated_.._test-util-includes-util-list.h.c.o' -MF 'test-build-util-list.h@exe/meson-generated_.._test-util-includes-util-list.h.c.o.d' -o 'test-build-util-list.h@exe/meson-generated_.._test-util-includes-util-list.h.c.o' -c test-util-includes-util-list.h.c",
+    "file": "test-util-includes-util-list.h.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Itest-build-util-macros.h@exe -I. -I.. -I../src -I../include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes  -MD -MQ 'test-build-util-macros.h@exe/meson-generated_.._test-util-includes-util-macros.h.c.o' -MF 'test-build-util-macros.h@exe/meson-generated_.._test-util-includes-util-macros.h.c.o.d' -o 'test-build-util-macros.h@exe/meson-generated_.._test-util-includes-util-macros.h.c.o' -c test-util-includes-util-macros.h.c",
+    "file": "test-util-includes-util-macros.h.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Itest-build-util-matrix.h@exe -I. -I.. -I../src -I../include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes  -MD -MQ 'test-build-util-matrix.h@exe/meson-generated_.._test-util-includes-util-matrix.h.c.o' -MF 'test-build-util-matrix.h@exe/meson-generated_.._test-util-includes-util-matrix.h.c.o.d' -o 'test-build-util-matrix.h@exe/meson-generated_.._test-util-includes-util-matrix.h.c.o' -c test-util-includes-util-matrix.h.c",
+    "file": "test-util-includes-util-matrix.h.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Itest-build-util-prop-parsers.h@exe -I. -I.. -I../src -I../include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes  -MD -MQ 'test-build-util-prop-parsers.h@exe/meson-generated_.._test-util-includes-util-prop-parsers.h.c.o' -MF 'test-build-util-prop-parsers.h@exe/meson-generated_.._test-util-includes-util-prop-parsers.h.c.o.d' -o 'test-build-util-prop-parsers.h@exe/meson-generated_.._test-util-includes-util-prop-parsers.h.c.o' -c test-util-includes-util-prop-parsers.h.c",
+    "file": "test-util-includes-util-prop-parsers.h.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Itest-build-util-ratelimit.h@exe -I. -I.. -I../src -I../include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes  -MD -MQ 'test-build-util-ratelimit.h@exe/meson-generated_.._test-util-includes-util-ratelimit.h.c.o' -MF 'test-build-util-ratelimit.h@exe/meson-generated_.._test-util-includes-util-ratelimit.h.c.o.d' -o 'test-build-util-ratelimit.h@exe/meson-generated_.._test-util-includes-util-ratelimit.h.c.o' -c test-util-includes-util-ratelimit.h.c",
+    "file": "test-util-includes-util-ratelimit.h.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Itest-build-util-strings.h@exe -I. -I.. -I../src -I../include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes  -MD -MQ 'test-build-util-strings.h@exe/meson-generated_.._test-util-includes-util-strings.h.c.o' -MF 'test-build-util-strings.h@exe/meson-generated_.._test-util-includes-util-strings.h.c.o.d' -o 'test-build-util-strings.h@exe/meson-generated_.._test-util-includes-util-strings.h.c.o' -c test-util-includes-util-strings.h.c",
+    "file": "test-util-includes-util-strings.h.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Itest-build-util-time.h@exe -I. -I.. -I../src -I../include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes  -MD -MQ 'test-build-util-time.h@exe/meson-generated_.._test-util-includes-util-time.h.c.o' -MF 'test-build-util-time.h@exe/meson-generated_.._test-util-includes-util-time.h.c.o.d' -o 'test-build-util-time.h@exe/meson-generated_.._test-util-includes-util-time.h.c.o' -c test-util-includes-util-time.h.c",
+    "file": "test-util-includes-util-time.h.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-util@sta -I. -I.. -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'libinput-util@sta/src_util-list.c.o' -MF 'libinput-util@sta/src_util-list.c.o.d' -o 'libinput-util@sta/src_util-list.c.o' -c ../src/util-list.c",
+    "file": "../src/util-list.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-util@sta -I. -I.. -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'libinput-util@sta/src_util-ratelimit.c.o' -MF 'libinput-util@sta/src_util-ratelimit.c.o.d' -o 'libinput-util@sta/src_util-ratelimit.c.o' -c ../src/util-ratelimit.c",
+    "file": "../src/util-ratelimit.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-util@sta -I. -I.. -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'libinput-util@sta/src_util-strings.c.o' -MF 'libinput-util@sta/src_util-strings.c.o.d' -o 'libinput-util@sta/src_util-strings.c.o' -c ../src/util-strings.c",
+    "file": "../src/util-strings.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-util@sta -I. -I.. -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'libinput-util@sta/src_util-prop-parsers.c.o' -MF 'libinput-util@sta/src_util-prop-parsers.c.o.d' -o 'libinput-util@sta/src_util-prop-parsers.c.o' -c ../src/util-prop-parsers.c",
+    "file": "../src/util-prop-parsers.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ifilter@sta -I. -I.. -I../include -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'filter@sta/src_filter.c.o' -MF 'filter@sta/src_filter.c.o.d' -o 'filter@sta/src_filter.c.o' -c ../src/filter.c",
+    "file": "../src/filter.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ifilter@sta -I. -I.. -I../include -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'filter@sta/src_filter-flat.c.o' -MF 'filter@sta/src_filter-flat.c.o.d' -o 'filter@sta/src_filter-flat.c.o' -c ../src/filter-flat.c",
+    "file": "../src/filter-flat.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ifilter@sta -I. -I.. -I../include -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'filter@sta/src_filter-low-dpi.c.o' -MF 'filter@sta/src_filter-low-dpi.c.o.d' -o 'filter@sta/src_filter-low-dpi.c.o' -c ../src/filter-low-dpi.c",
+    "file": "../src/filter-low-dpi.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ifilter@sta -I. -I.. -I../include -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'filter@sta/src_filter-mouse.c.o' -MF 'filter@sta/src_filter-mouse.c.o.d' -o 'filter@sta/src_filter-mouse.c.o' -c ../src/filter-mouse.c",
+    "file": "../src/filter-mouse.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ifilter@sta -I. -I.. -I../include -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'filter@sta/src_filter-touchpad.c.o' -MF 'filter@sta/src_filter-touchpad.c.o.d' -o 'filter@sta/src_filter-touchpad.c.o' -c ../src/filter-touchpad.c",
+    "file": "../src/filter-touchpad.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ifilter@sta -I. -I.. -I../include -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'filter@sta/src_filter-touchpad-x230.c.o' -MF 'filter@sta/src_filter-touchpad-x230.c.o.d' -o 'filter@sta/src_filter-touchpad-x230.c.o' -c ../src/filter-touchpad-x230.c",
+    "file": "../src/filter-touchpad-x230.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ifilter@sta -I. -I.. -I../include -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'filter@sta/src_filter-tablet.c.o' -MF 'filter@sta/src_filter-tablet.c.o.d' -o 'filter@sta/src_filter-tablet.c.o' -c ../src/filter-tablet.c",
+    "file": "../src/filter-tablet.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ifilter@sta -I. -I.. -I../include -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'filter@sta/src_filter-trackpoint.c.o' -MF 'filter@sta/src_filter-trackpoint.c.o.d' -o 'filter@sta/src_filter-trackpoint.c.o' -c ../src/filter-trackpoint.c",
+    "file": "../src/filter-trackpoint.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Iquirks@sta -I. -I.. -I../include -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'quirks@sta/src_quirks.c.o' -MF 'quirks@sta/src_quirks.c.o.d' -o 'quirks@sta/src_quirks.c.o' -c ../src/quirks.c",
+    "file": "../src/quirks.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Iinput@sha -I. -I.. -I../ -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'input@sha/src_filter.c.o' -MF 'input@sha/src_filter.c.o.d' -o 'input@sha/src_filter.c.o' -c ../src/filter.c",
+    "file": "../src/filter.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Iinput@sha -I. -I.. -I../ -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'input@sha/src_filter-flat.c.o' -MF 'input@sha/src_filter-flat.c.o.d' -o 'input@sha/src_filter-flat.c.o' -c ../src/filter-flat.c",
+    "file": "../src/filter-flat.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Iinput@sha -I. -I.. -I../ -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'input@sha/src_filter-low-dpi.c.o' -MF 'input@sha/src_filter-low-dpi.c.o.d' -o 'input@sha/src_filter-low-dpi.c.o' -c ../src/filter-low-dpi.c",
+    "file": "../src/filter-low-dpi.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Iinput@sha -I. -I.. -I../ -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'input@sha/src_filter-mouse.c.o' -MF 'input@sha/src_filter-mouse.c.o.d' -o 'input@sha/src_filter-mouse.c.o' -c ../src/filter-mouse.c",
+    "file": "../src/filter-mouse.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Iinput@sha -I. -I.. -I../ -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'input@sha/src_filter-touchpad.c.o' -MF 'input@sha/src_filter-touchpad.c.o.d' -o 'input@sha/src_filter-touchpad.c.o' -c ../src/filter-touchpad.c",
+    "file": "../src/filter-touchpad.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Iinput@sha -I. -I.. -I../ -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'input@sha/src_filter-touchpad-x230.c.o' -MF 'input@sha/src_filter-touchpad-x230.c.o.d' -o 'input@sha/src_filter-touchpad-x230.c.o' -c ../src/filter-touchpad-x230.c",
+    "file": "../src/filter-touchpad-x230.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Iinput@sha -I. -I.. -I../ -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'input@sha/src_filter-tablet.c.o' -MF 'input@sha/src_filter-tablet.c.o.d' -o 'input@sha/src_filter-tablet.c.o' -c ../src/filter-tablet.c",
+    "file": "../src/filter-tablet.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Iinput@sha -I. -I.. -I../ -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'input@sha/src_filter-trackpoint.c.o' -MF 'input@sha/src_filter-trackpoint.c.o.d' -o 'input@sha/src_filter-trackpoint.c.o' -c ../src/filter-trackpoint.c",
+    "file": "../src/filter-trackpoint.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Iinput@sha -I. -I.. -I../ -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'input@sha/src_libinput.c.o' -MF 'input@sha/src_libinput.c.o.d' -o 'input@sha/src_libinput.c.o' -c ../src/libinput.c",
+    "file": "../src/libinput.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Iinput@sha -I. -I.. -I../ -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'input@sha/src_evdev.c.o' -MF 'input@sha/src_evdev.c.o.d' -o 'input@sha/src_evdev.c.o' -c ../src/evdev.c",
+    "file": "../src/evdev.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Iinput@sha -I. -I.. -I../ -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'input@sha/src_evdev-debounce.c.o' -MF 'input@sha/src_evdev-debounce.c.o.d' -o 'input@sha/src_evdev-debounce.c.o' -c ../src/evdev-debounce.c",
+    "file": "../src/evdev-debounce.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Iinput@sha -I. -I.. -I../ -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'input@sha/src_evdev-fallback.c.o' -MF 'input@sha/src_evdev-fallback.c.o.d' -o 'input@sha/src_evdev-fallback.c.o' -c ../src/evdev-fallback.c",
+    "file": "../src/evdev-fallback.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Iinput@sha -I. -I.. -I../ -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'input@sha/src_evdev-totem.c.o' -MF 'input@sha/src_evdev-totem.c.o.d' -o 'input@sha/src_evdev-totem.c.o' -c ../src/evdev-totem.c",
+    "file": "../src/evdev-totem.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Iinput@sha -I. -I.. -I../ -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'input@sha/src_evdev-middle-button.c.o' -MF 'input@sha/src_evdev-middle-button.c.o.d' -o 'input@sha/src_evdev-middle-button.c.o' -c ../src/evdev-middle-button.c",
+    "file": "../src/evdev-middle-button.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Iinput@sha -I. -I.. -I../ -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'input@sha/src_evdev-mt-touchpad.c.o' -MF 'input@sha/src_evdev-mt-touchpad.c.o.d' -o 'input@sha/src_evdev-mt-touchpad.c.o' -c ../src/evdev-mt-touchpad.c",
+    "file": "../src/evdev-mt-touchpad.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Iinput@sha -I. -I.. -I../ -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'input@sha/src_evdev-mt-touchpad-tap.c.o' -MF 'input@sha/src_evdev-mt-touchpad-tap.c.o.d' -o 'input@sha/src_evdev-mt-touchpad-tap.c.o' -c ../src/evdev-mt-touchpad-tap.c",
+    "file": "../src/evdev-mt-touchpad-tap.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Iinput@sha -I. -I.. -I../ -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'input@sha/src_evdev-mt-touchpad-thumb.c.o' -MF 'input@sha/src_evdev-mt-touchpad-thumb.c.o.d' -o 'input@sha/src_evdev-mt-touchpad-thumb.c.o' -c ../src/evdev-mt-touchpad-thumb.c",
+    "file": "../src/evdev-mt-touchpad-thumb.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Iinput@sha -I. -I.. -I../ -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'input@sha/src_evdev-mt-touchpad-buttons.c.o' -MF 'input@sha/src_evdev-mt-touchpad-buttons.c.o.d' -o 'input@sha/src_evdev-mt-touchpad-buttons.c.o' -c ../src/evdev-mt-touchpad-buttons.c",
+    "file": "../src/evdev-mt-touchpad-buttons.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Iinput@sha -I. -I.. -I../ -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'input@sha/src_evdev-mt-touchpad-edge-scroll.c.o' -MF 'input@sha/src_evdev-mt-touchpad-edge-scroll.c.o.d' -o 'input@sha/src_evdev-mt-touchpad-edge-scroll.c.o' -c ../src/evdev-mt-touchpad-edge-scroll.c",
+    "file": "../src/evdev-mt-touchpad-edge-scroll.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Iinput@sha -I. -I.. -I../ -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'input@sha/src_evdev-mt-touchpad-gestures.c.o' -MF 'input@sha/src_evdev-mt-touchpad-gestures.c.o.d' -o 'input@sha/src_evdev-mt-touchpad-gestures.c.o' -c ../src/evdev-mt-touchpad-gestures.c",
+    "file": "../src/evdev-mt-touchpad-gestures.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Iinput@sha -I. -I.. -I../ -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'input@sha/src_evdev-tablet.c.o' -MF 'input@sha/src_evdev-tablet.c.o.d' -o 'input@sha/src_evdev-tablet.c.o' -c ../src/evdev-tablet.c",
+    "file": "../src/evdev-tablet.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Iinput@sha -I. -I.. -I../ -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'input@sha/src_evdev-tablet-pad.c.o' -MF 'input@sha/src_evdev-tablet-pad.c.o.d' -o 'input@sha/src_evdev-tablet-pad.c.o' -c ../src/evdev-tablet-pad.c",
+    "file": "../src/evdev-tablet-pad.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Iinput@sha -I. -I.. -I../ -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'input@sha/src_evdev-tablet-pad-leds.c.o' -MF 'input@sha/src_evdev-tablet-pad-leds.c.o.d' -o 'input@sha/src_evdev-tablet-pad-leds.c.o' -c ../src/evdev-tablet-pad-leds.c",
+    "file": "../src/evdev-tablet-pad-leds.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Iinput@sha -I. -I.. -I../ -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'input@sha/src_path-seat.c.o' -MF 'input@sha/src_path-seat.c.o.d' -o 'input@sha/src_path-seat.c.o' -c ../src/path-seat.c",
+    "file": "../src/path-seat.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Iinput@sha -I. -I.. -I../ -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'input@sha/src_udev-seat.c.o' -MF 'input@sha/src_udev-seat.c.o.d' -o 'input@sha/src_udev-seat.c.o' -c ../src/udev-seat.c",
+    "file": "../src/udev-seat.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Iinput@sha -I. -I.. -I../ -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'input@sha/src_timer.c.o' -MF 'input@sha/src_timer.c.o.d' -o 'input@sha/src_timer.c.o' -c ../src/timer.c",
+    "file": "../src/timer.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Itools_shared@sta -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC  -MD -MQ 'tools_shared@sta/tools_shared.c.o' -MF 'tools_shared@sta/tools_shared.c.o.d' -o 'tools_shared@sta/tools_shared.c.o' -c ../tools/shared.c",
+    "file": "../tools/shared.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-debug-events@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes  -MD -MQ 'libinput-debug-events@exe/tools_libinput-debug-events.c.o' -MF 'libinput-debug-events@exe/tools_libinput-debug-events.c.o.d' -o 'libinput-debug-events@exe/tools_libinput-debug-events.c.o' -c ../tools/libinput-debug-events.c",
+    "file": "../tools/libinput-debug-events.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-debug-tablet@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes  -MD -MQ 'libinput-debug-tablet@exe/tools_libinput-debug-tablet.c.o' -MF 'libinput-debug-tablet@exe/tools_libinput-debug-tablet.c.o.d' -o 'libinput-debug-tablet@exe/tools_libinput-debug-tablet.c.o' -c ../tools/libinput-debug-tablet.c",
+    "file": "../tools/libinput-debug-tablet.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-quirks@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes  -MD -MQ 'libinput-quirks@exe/tools_libinput-quirks.c.o' -MF 'libinput-quirks@exe/tools_libinput-quirks.c.o.d' -o 'libinput-quirks@exe/tools_libinput-quirks.c.o' -c ../tools/libinput-quirks.c",
+    "file": "../tools/libinput-quirks.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-list-devices@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes  -MD -MQ 'libinput-list-devices@exe/tools_libinput-list-devices.c.o' -MF 'libinput-list-devices@exe/tools_libinput-list-devices.c.o.d' -o 'libinput-list-devices@exe/tools_libinput-list-devices.c.o' -c ../tools/libinput-list-devices.c",
+    "file": "../tools/libinput-list-devices.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-measure@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes  -MD -MQ 'libinput-measure@exe/tools_libinput-measure.c.o' -MF 'libinput-measure@exe/tools_libinput-measure.c.o.d' -o 'libinput-measure@exe/tools_libinput-measure.c.o' -c ../tools/libinput-measure.c",
+    "file": "../tools/libinput-measure.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-analyze@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes  -MD -MQ 'libinput-analyze@exe/tools_libinput-analyze.c.o' -MF 'libinput-analyze@exe/tools_libinput-analyze.c.o.d' -o 'libinput-analyze@exe/tools_libinput-analyze.c.o' -c ../tools/libinput-analyze.c",
+    "file": "../tools/libinput-analyze.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-record@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes  -MD -MQ 'libinput-record@exe/tools_libinput-record.c.o' -MF 'libinput-record@exe/tools_libinput-record.c.o.d' -o 'libinput-record@exe/tools_libinput-record.c.o' -c ../tools/libinput-record.c",
+    "file": "../tools/libinput-record.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-debug-gui@exe -I. -I.. -I../src -I../include -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/arm-linux-gnueabihf/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/uuid -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-debug-gui@exe/tools_libinput-debug-gui.c.o' -MF 'libinput-debug-gui@exe/tools_libinput-debug-gui.c.o.d' -o 'libinput-debug-gui@exe/tools_libinput-debug-gui.c.o' -c ../tools/libinput-debug-gui.c",
+    "file": "../tools/libinput-debug-gui.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes  -MD -MQ 'libinput@exe/tools_libinput-tool.c.o' -MF 'libinput@exe/tools_libinput-tool.c.o.d' -o 'libinput@exe/tools_libinput-tool.c.o' -c ../tools/libinput-tool.c",
+    "file": "../tools/libinput-tool.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Iptraccel-debug@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes  -MD -MQ 'ptraccel-debug@exe/tools_ptraccel-debug.c.o' -MF 'ptraccel-debug@exe/tools_ptraccel-debug.c.o.d' -o 'ptraccel-debug@exe/tools_ptraccel-debug.c.o' -c ../tools/ptraccel-debug.c",
+    "file": "../tools/ptraccel-debug.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Itest-builddir-lookup@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes  -MD -MQ 'test-builddir-lookup@exe/test_test-builddir-lookup.c.o' -MF 'test-builddir-lookup@exe/test_test-builddir-lookup.c.o.d' -o 'test-builddir-lookup@exe/test_test-builddir-lookup.c.o' -c ../test/test-builddir-lookup.c",
+    "file": "../test/test-builddir-lookup.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Itest-build-pedantic@exe -I. -I.. -I../src -I../include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -std=c99 -pedantic -Werror  -MD -MQ 'test-build-pedantic@exe/test_build-pedantic.c.o' -MF 'test-build-pedantic@exe/test_build-pedantic.c.o.d' -o 'test-build-pedantic@exe/test_build-pedantic.c.o' -c ../test/build-pedantic.c",
+    "file": "../test/build-pedantic.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Itest-build-std-gnuc90@exe -I. -I.. -I../src -I../include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -std=gnu89 -Werror  -MD -MQ 'test-build-std-gnuc90@exe/test_build-pedantic.c.o' -MF 'test-build-std-gnuc90@exe/test_build-pedantic.c.o.d' -o 'test-build-std-gnuc90@exe/test_build-pedantic.c.o' -c ../test/build-pedantic.c",
+    "file": "../test/build-pedantic.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Itest-build-linker@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes  -MD -MQ 'test-build-linker@exe/test_build-pedantic.c.o' -MF 'test-build-linker@exe/test_build-pedantic.c.o.d' -o 'test-build-linker@exe/test_build-pedantic.c.o' -c ../test/build-pedantic.c",
+    "file": "../test/build-pedantic.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "c++ -Itest-build-cxx@exe -I. -I.. -I../src -I../include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -g -Wno-unused-parameter -fvisibility=hidden  -MD -MQ 'test-build-cxx@exe/test_build-cxx.cc.o' -MF 'test-build-cxx@exe/test_build-cxx.cc.o.d' -o 'test-build-cxx@exe/test_build-cxx.cc.o' -c ../test/build-cxx.cc",
+    "file": "../test/build-cxx.cc"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Itest-litest-selftest@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread -DLITEST_NO_MAIN -DLITEST_DISABLE_BACKTRACE_LOGGING  -MD -MQ 'test-litest-selftest@exe/test_litest-selftest.c.o' -MF 'test-litest-selftest@exe/test_litest-selftest.c.o.d' -o 'test-litest-selftest@exe/test_litest-selftest.c.o' -c ../test/litest-selftest.c",
+    "file": "../test/litest-selftest.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Itest-litest-selftest@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread -DLITEST_NO_MAIN -DLITEST_DISABLE_BACKTRACE_LOGGING  -MD -MQ 'test-litest-selftest@exe/test_litest.c.o' -MF 'test-litest-selftest@exe/test_litest.c.o.d' -o 'test-litest-selftest@exe/test_litest.c.o' -c ../test/litest.c",
+    "file": "../test/litest.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Itest-library-version@exe -I. -I.. -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes '-DLIBINPUT_LT_VERSION=\"23:0:13\"'  -MD -MQ 'test-library-version@exe/test_test-library-version.c.o' -MF 'test-library-version@exe/test_test-library-version.c.o.d' -o 'test-library-version@exe/test_test-library-version.c.o' -c ../test/test-library-version.c",
+    "file": "../test/test-library-version.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Itest-utils@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'test-utils@exe/test_test-utils.c.o' -MF 'test-utils@exe/test_test-utils.c.o.d' -o 'test-utils@exe/test_test-utils.c.o' -c ../test/test-utils.c",
+    "file": "../test/test-utils.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-absinfo-override.c.o' -MF 'libinput-test-suite@exe/test_litest-device-absinfo-override.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-absinfo-override.c.o' -c ../test/litest-device-absinfo-override.c",
+    "file": "../test/litest-device-absinfo-override.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-acer-hawaii-keyboard.c.o' -MF 'libinput-test-suite@exe/test_litest-device-acer-hawaii-keyboard.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-acer-hawaii-keyboard.c.o' -c ../test/litest-device-acer-hawaii-keyboard.c",
+    "file": "../test/litest-device-acer-hawaii-keyboard.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-acer-hawaii-touchpad.c.o' -MF 'libinput-test-suite@exe/test_litest-device-acer-hawaii-touchpad.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-acer-hawaii-touchpad.c.o' -c ../test/litest-device-acer-hawaii-touchpad.c",
+    "file": "../test/litest-device-acer-hawaii-touchpad.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-aiptek-tablet.c.o' -MF 'libinput-test-suite@exe/test_litest-device-aiptek-tablet.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-aiptek-tablet.c.o' -c ../test/litest-device-aiptek-tablet.c",
+    "file": "../test/litest-device-aiptek-tablet.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-alps-3fg.c.o' -MF 'libinput-test-suite@exe/test_litest-device-alps-3fg.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-alps-3fg.c.o' -c ../test/litest-device-alps-3fg.c",
+    "file": "../test/litest-device-alps-3fg.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-alps-semi-mt.c.o' -MF 'libinput-test-suite@exe/test_litest-device-alps-semi-mt.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-alps-semi-mt.c.o' -c ../test/litest-device-alps-semi-mt.c",
+    "file": "../test/litest-device-alps-semi-mt.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-alps-dualpoint.c.o' -MF 'libinput-test-suite@exe/test_litest-device-alps-dualpoint.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-alps-dualpoint.c.o' -c ../test/litest-device-alps-dualpoint.c",
+    "file": "../test/litest-device-alps-dualpoint.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-anker-mouse-kbd.c.o' -MF 'libinput-test-suite@exe/test_litest-device-anker-mouse-kbd.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-anker-mouse-kbd.c.o' -c ../test/litest-device-anker-mouse-kbd.c",
+    "file": "../test/litest-device-anker-mouse-kbd.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-apple-appletouch.c.o' -MF 'libinput-test-suite@exe/test_litest-device-apple-appletouch.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-apple-appletouch.c.o' -c ../test/litest-device-apple-appletouch.c",
+    "file": "../test/litest-device-apple-appletouch.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-apple-internal-keyboard.c.o' -MF 'libinput-test-suite@exe/test_litest-device-apple-internal-keyboard.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-apple-internal-keyboard.c.o' -c ../test/litest-device-apple-internal-keyboard.c",
+    "file": "../test/litest-device-apple-internal-keyboard.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-apple-magicmouse.c.o' -MF 'libinput-test-suite@exe/test_litest-device-apple-magicmouse.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-apple-magicmouse.c.o' -c ../test/litest-device-apple-magicmouse.c",
+    "file": "../test/litest-device-apple-magicmouse.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-asus-rog-gladius.c.o' -MF 'libinput-test-suite@exe/test_litest-device-asus-rog-gladius.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-asus-rog-gladius.c.o' -c ../test/litest-device-asus-rog-gladius.c",
+    "file": "../test/litest-device-asus-rog-gladius.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-atmel-hover.c.o' -MF 'libinput-test-suite@exe/test_litest-device-atmel-hover.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-atmel-hover.c.o' -c ../test/litest-device-atmel-hover.c",
+    "file": "../test/litest-device-atmel-hover.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-bcm5974.c.o' -MF 'libinput-test-suite@exe/test_litest-device-bcm5974.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-bcm5974.c.o' -c ../test/litest-device-bcm5974.c",
+    "file": "../test/litest-device-bcm5974.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-calibrated-touchscreen.c.o' -MF 'libinput-test-suite@exe/test_litest-device-calibrated-touchscreen.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-calibrated-touchscreen.c.o' -c ../test/litest-device-calibrated-touchscreen.c",
+    "file": "../test/litest-device-calibrated-touchscreen.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-cyborg-rat-5.c.o' -MF 'libinput-test-suite@exe/test_litest-device-cyborg-rat-5.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-cyborg-rat-5.c.o' -c ../test/litest-device-cyborg-rat-5.c",
+    "file": "../test/litest-device-cyborg-rat-5.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-dell-canvas-totem.c.o' -MF 'libinput-test-suite@exe/test_litest-device-dell-canvas-totem.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-dell-canvas-totem.c.o' -c ../test/litest-device-dell-canvas-totem.c",
+    "file": "../test/litest-device-dell-canvas-totem.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-dell-canvas-totem-touch.c.o' -MF 'libinput-test-suite@exe/test_litest-device-dell-canvas-totem-touch.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-dell-canvas-totem-touch.c.o' -c ../test/litest-device-dell-canvas-totem-touch.c",
+    "file": "../test/litest-device-dell-canvas-totem-touch.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-elantech-touchpad.c.o' -MF 'libinput-test-suite@exe/test_litest-device-elantech-touchpad.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-elantech-touchpad.c.o' -c ../test/litest-device-elantech-touchpad.c",
+    "file": "../test/litest-device-elantech-touchpad.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-elan-tablet.c.o' -MF 'libinput-test-suite@exe/test_litest-device-elan-tablet.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-elan-tablet.c.o' -c ../test/litest-device-elan-tablet.c",
+    "file": "../test/litest-device-elan-tablet.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-generic-singletouch.c.o' -MF 'libinput-test-suite@exe/test_litest-device-generic-singletouch.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-generic-singletouch.c.o' -c ../test/litest-device-generic-singletouch.c",
+    "file": "../test/litest-device-generic-singletouch.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-gpio-keys.c.o' -MF 'libinput-test-suite@exe/test_litest-device-gpio-keys.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-gpio-keys.c.o' -c ../test/litest-device-gpio-keys.c",
+    "file": "../test/litest-device-gpio-keys.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-huion-pentablet.c.o' -MF 'libinput-test-suite@exe/test_litest-device-huion-pentablet.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-huion-pentablet.c.o' -c ../test/litest-device-huion-pentablet.c",
+    "file": "../test/litest-device-huion-pentablet.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-hp-wmi-hotkeys.c.o' -MF 'libinput-test-suite@exe/test_litest-device-hp-wmi-hotkeys.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-hp-wmi-hotkeys.c.o' -c ../test/litest-device-hp-wmi-hotkeys.c",
+    "file": "../test/litest-device-hp-wmi-hotkeys.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-ignored-mouse.c.o' -MF 'libinput-test-suite@exe/test_litest-device-ignored-mouse.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-ignored-mouse.c.o' -c ../test/litest-device-ignored-mouse.c",
+    "file": "../test/litest-device-ignored-mouse.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-keyboard.c.o' -MF 'libinput-test-suite@exe/test_litest-device-keyboard.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-keyboard.c.o' -c ../test/litest-device-keyboard.c",
+    "file": "../test/litest-device-keyboard.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-keyboard-all-codes.c.o' -MF 'libinput-test-suite@exe/test_litest-device-keyboard-all-codes.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-keyboard-all-codes.c.o' -c ../test/litest-device-keyboard-all-codes.c",
+    "file": "../test/litest-device-keyboard-all-codes.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-keyboard-razer-blackwidow.c.o' -MF 'libinput-test-suite@exe/test_litest-device-keyboard-razer-blackwidow.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-keyboard-razer-blackwidow.c.o' -c ../test/litest-device-keyboard-razer-blackwidow.c",
+    "file": "../test/litest-device-keyboard-razer-blackwidow.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-keyboard-razer-blade-stealth.c.o' -MF 'libinput-test-suite@exe/test_litest-device-keyboard-razer-blade-stealth.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-keyboard-razer-blade-stealth.c.o' -c ../test/litest-device-keyboard-razer-blade-stealth.c",
+    "file": "../test/litest-device-keyboard-razer-blade-stealth.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-keyboard-razer-blade-stealth-videoswitch.c.o' -MF 'libinput-test-suite@exe/test_litest-device-keyboard-razer-blade-stealth-videoswitch.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-keyboard-razer-blade-stealth-videoswitch.c.o' -c ../test/litest-device-keyboard-razer-blade-stealth-videoswitch.c",
+    "file": "../test/litest-device-keyboard-razer-blade-stealth-videoswitch.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-lid-switch.c.o' -MF 'libinput-test-suite@exe/test_litest-device-lid-switch.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-lid-switch.c.o' -c ../test/litest-device-lid-switch.c",
+    "file": "../test/litest-device-lid-switch.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-lid-switch-surface3.c.o' -MF 'libinput-test-suite@exe/test_litest-device-lid-switch-surface3.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-lid-switch-surface3.c.o' -c ../test/litest-device-lid-switch-surface3.c",
+    "file": "../test/litest-device-lid-switch-surface3.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-logitech-trackball.c.o' -MF 'libinput-test-suite@exe/test_litest-device-logitech-trackball.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-logitech-trackball.c.o' -c ../test/litest-device-logitech-trackball.c",
+    "file": "../test/litest-device-logitech-trackball.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-nexus4-touch-screen.c.o' -MF 'libinput-test-suite@exe/test_litest-device-nexus4-touch-screen.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-nexus4-touch-screen.c.o' -c ../test/litest-device-nexus4-touch-screen.c",
+    "file": "../test/litest-device-nexus4-touch-screen.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-magic-trackpad.c.o' -MF 'libinput-test-suite@exe/test_litest-device-magic-trackpad.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-magic-trackpad.c.o' -c ../test/litest-device-magic-trackpad.c",
+    "file": "../test/litest-device-magic-trackpad.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-mouse.c.o' -MF 'libinput-test-suite@exe/test_litest-device-mouse.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-mouse.c.o' -c ../test/litest-device-mouse.c",
+    "file": "../test/litest-device-mouse.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-mouse-wheel-tilt.c.o' -MF 'libinput-test-suite@exe/test_litest-device-mouse-wheel-tilt.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-mouse-wheel-tilt.c.o' -c ../test/litest-device-mouse-wheel-tilt.c",
+    "file": "../test/litest-device-mouse-wheel-tilt.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-mouse-roccat.c.o' -MF 'libinput-test-suite@exe/test_litest-device-mouse-roccat.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-mouse-roccat.c.o' -c ../test/litest-device-mouse-roccat.c",
+    "file": "../test/litest-device-mouse-roccat.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-mouse-low-dpi.c.o' -MF 'libinput-test-suite@exe/test_litest-device-mouse-low-dpi.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-mouse-low-dpi.c.o' -c ../test/litest-device-mouse-low-dpi.c",
+    "file": "../test/litest-device-mouse-low-dpi.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-mouse-wheel-click-angle.c.o' -MF 'libinput-test-suite@exe/test_litest-device-mouse-wheel-click-angle.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-mouse-wheel-click-angle.c.o' -c ../test/litest-device-mouse-wheel-click-angle.c",
+    "file": "../test/litest-device-mouse-wheel-click-angle.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-mouse-wheel-click-count.c.o' -MF 'libinput-test-suite@exe/test_litest-device-mouse-wheel-click-count.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-mouse-wheel-click-count.c.o' -c ../test/litest-device-mouse-wheel-click-count.c",
+    "file": "../test/litest-device-mouse-wheel-click-count.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-ms-nano-transceiver-mouse.c.o' -MF 'libinput-test-suite@exe/test_litest-device-ms-nano-transceiver-mouse.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-ms-nano-transceiver-mouse.c.o' -c ../test/litest-device-ms-nano-transceiver-mouse.c",
+    "file": "../test/litest-device-ms-nano-transceiver-mouse.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-ms-surface-cover.c.o' -MF 'libinput-test-suite@exe/test_litest-device-ms-surface-cover.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-ms-surface-cover.c.o' -c ../test/litest-device-ms-surface-cover.c",
+    "file": "../test/litest-device-ms-surface-cover.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-protocol-a-touch-screen.c.o' -MF 'libinput-test-suite@exe/test_litest-device-protocol-a-touch-screen.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-protocol-a-touch-screen.c.o' -c ../test/litest-device-protocol-a-touch-screen.c",
+    "file": "../test/litest-device-protocol-a-touch-screen.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-qemu-usb-tablet.c.o' -MF 'libinput-test-suite@exe/test_litest-device-qemu-usb-tablet.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-qemu-usb-tablet.c.o' -c ../test/litest-device-qemu-usb-tablet.c",
+    "file": "../test/litest-device-qemu-usb-tablet.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-synaptics-x220.c.o' -MF 'libinput-test-suite@exe/test_litest-device-synaptics-x220.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-synaptics-x220.c.o' -c ../test/litest-device-synaptics-x220.c",
+    "file": "../test/litest-device-synaptics-x220.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-synaptics-hover.c.o' -MF 'libinput-test-suite@exe/test_litest-device-synaptics-hover.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-synaptics-hover.c.o' -c ../test/litest-device-synaptics-hover.c",
+    "file": "../test/litest-device-synaptics-hover.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-synaptics-i2c.c.o' -MF 'libinput-test-suite@exe/test_litest-device-synaptics-i2c.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-synaptics-i2c.c.o' -c ../test/litest-device-synaptics-i2c.c",
+    "file": "../test/litest-device-synaptics-i2c.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-synaptics-rmi4.c.o' -MF 'libinput-test-suite@exe/test_litest-device-synaptics-rmi4.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-synaptics-rmi4.c.o' -c ../test/litest-device-synaptics-rmi4.c",
+    "file": "../test/litest-device-synaptics-rmi4.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-synaptics-st.c.o' -MF 'libinput-test-suite@exe/test_litest-device-synaptics-st.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-synaptics-st.c.o' -c ../test/litest-device-synaptics-st.c",
+    "file": "../test/litest-device-synaptics-st.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-synaptics-t440.c.o' -MF 'libinput-test-suite@exe/test_litest-device-synaptics-t440.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-synaptics-t440.c.o' -c ../test/litest-device-synaptics-t440.c",
+    "file": "../test/litest-device-synaptics-t440.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-synaptics-x1-carbon-3rd.c.o' -MF 'libinput-test-suite@exe/test_litest-device-synaptics-x1-carbon-3rd.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-synaptics-x1-carbon-3rd.c.o' -c ../test/litest-device-synaptics-x1-carbon-3rd.c",
+    "file": "../test/litest-device-synaptics-x1-carbon-3rd.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-thinkpad-extrabuttons.c.o' -MF 'libinput-test-suite@exe/test_litest-device-thinkpad-extrabuttons.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-thinkpad-extrabuttons.c.o' -c ../test/litest-device-thinkpad-extrabuttons.c",
+    "file": "../test/litest-device-thinkpad-extrabuttons.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-trackpoint.c.o' -MF 'libinput-test-suite@exe/test_litest-device-trackpoint.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-trackpoint.c.o' -c ../test/litest-device-trackpoint.c",
+    "file": "../test/litest-device-trackpoint.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-touch-screen.c.o' -MF 'libinput-test-suite@exe/test_litest-device-touch-screen.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-touch-screen.c.o' -c ../test/litest-device-touch-screen.c",
+    "file": "../test/litest-device-touch-screen.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-touchscreen-invalid-range.c.o' -MF 'libinput-test-suite@exe/test_litest-device-touchscreen-invalid-range.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-touchscreen-invalid-range.c.o' -c ../test/litest-device-touchscreen-invalid-range.c",
+    "file": "../test/litest-device-touchscreen-invalid-range.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-touchscreen-fuzz.c.o' -MF 'libinput-test-suite@exe/test_litest-device-touchscreen-fuzz.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-touchscreen-fuzz.c.o' -c ../test/litest-device-touchscreen-fuzz.c",
+    "file": "../test/litest-device-touchscreen-fuzz.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-touchscreen-mt-tool.c.o' -MF 'libinput-test-suite@exe/test_litest-device-touchscreen-mt-tool.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-touchscreen-mt-tool.c.o' -c ../test/litest-device-touchscreen-mt-tool.c",
+    "file": "../test/litest-device-touchscreen-mt-tool.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-uclogic-tablet.c.o' -MF 'libinput-test-suite@exe/test_litest-device-uclogic-tablet.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-uclogic-tablet.c.o' -c ../test/litest-device-uclogic-tablet.c",
+    "file": "../test/litest-device-uclogic-tablet.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-wacom-bamboo-2fg-finger.c.o' -MF 'libinput-test-suite@exe/test_litest-device-wacom-bamboo-2fg-finger.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-wacom-bamboo-2fg-finger.c.o' -c ../test/litest-device-wacom-bamboo-2fg-finger.c",
+    "file": "../test/litest-device-wacom-bamboo-2fg-finger.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-wacom-bamboo-2fg-pad.c.o' -MF 'libinput-test-suite@exe/test_litest-device-wacom-bamboo-2fg-pad.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-wacom-bamboo-2fg-pad.c.o' -c ../test/litest-device-wacom-bamboo-2fg-pad.c",
+    "file": "../test/litest-device-wacom-bamboo-2fg-pad.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-wacom-bamboo-2fg-pen.c.o' -MF 'libinput-test-suite@exe/test_litest-device-wacom-bamboo-2fg-pen.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-wacom-bamboo-2fg-pen.c.o' -c ../test/litest-device-wacom-bamboo-2fg-pen.c",
+    "file": "../test/litest-device-wacom-bamboo-2fg-pen.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-wacom-bamboo-16fg-pen.c.o' -MF 'libinput-test-suite@exe/test_litest-device-wacom-bamboo-16fg-pen.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-wacom-bamboo-16fg-pen.c.o' -c ../test/litest-device-wacom-bamboo-16fg-pen.c",
+    "file": "../test/litest-device-wacom-bamboo-16fg-pen.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-wacom-cintiq-12wx-pen.c.o' -MF 'libinput-test-suite@exe/test_litest-device-wacom-cintiq-12wx-pen.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-wacom-cintiq-12wx-pen.c.o' -c ../test/litest-device-wacom-cintiq-12wx-pen.c",
+    "file": "../test/litest-device-wacom-cintiq-12wx-pen.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-wacom-cintiq-13hdt-finger.c.o' -MF 'libinput-test-suite@exe/test_litest-device-wacom-cintiq-13hdt-finger.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-wacom-cintiq-13hdt-finger.c.o' -c ../test/litest-device-wacom-cintiq-13hdt-finger.c",
+    "file": "../test/litest-device-wacom-cintiq-13hdt-finger.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-wacom-cintiq-13hdt-pad.c.o' -MF 'libinput-test-suite@exe/test_litest-device-wacom-cintiq-13hdt-pad.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-wacom-cintiq-13hdt-pad.c.o' -c ../test/litest-device-wacom-cintiq-13hdt-pad.c",
+    "file": "../test/litest-device-wacom-cintiq-13hdt-pad.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-wacom-cintiq-13hdt-pen.c.o' -MF 'libinput-test-suite@exe/test_litest-device-wacom-cintiq-13hdt-pen.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-wacom-cintiq-13hdt-pen.c.o' -c ../test/litest-device-wacom-cintiq-13hdt-pen.c",
+    "file": "../test/litest-device-wacom-cintiq-13hdt-pen.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-wacom-cintiq-24hd-pen.c.o' -MF 'libinput-test-suite@exe/test_litest-device-wacom-cintiq-24hd-pen.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-wacom-cintiq-24hd-pen.c.o' -c ../test/litest-device-wacom-cintiq-24hd-pen.c",
+    "file": "../test/litest-device-wacom-cintiq-24hd-pen.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-wacom-cintiq-24hdt-pad.c.o' -MF 'libinput-test-suite@exe/test_litest-device-wacom-cintiq-24hdt-pad.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-wacom-cintiq-24hdt-pad.c.o' -c ../test/litest-device-wacom-cintiq-24hdt-pad.c",
+    "file": "../test/litest-device-wacom-cintiq-24hdt-pad.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-wacom-cintiq-pro-16-finger.c.o' -MF 'libinput-test-suite@exe/test_litest-device-wacom-cintiq-pro-16-finger.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-wacom-cintiq-pro-16-finger.c.o' -c ../test/litest-device-wacom-cintiq-pro-16-finger.c",
+    "file": "../test/litest-device-wacom-cintiq-pro-16-finger.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-wacom-cintiq-pro-16-pad.c.o' -MF 'libinput-test-suite@exe/test_litest-device-wacom-cintiq-pro-16-pad.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-wacom-cintiq-pro-16-pad.c.o' -c ../test/litest-device-wacom-cintiq-pro-16-pad.c",
+    "file": "../test/litest-device-wacom-cintiq-pro-16-pad.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-wacom-cintiq-pro-16-pen.c.o' -MF 'libinput-test-suite@exe/test_litest-device-wacom-cintiq-pro-16-pen.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-wacom-cintiq-pro-16-pen.c.o' -c ../test/litest-device-wacom-cintiq-pro-16-pen.c",
+    "file": "../test/litest-device-wacom-cintiq-pro-16-pen.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-wacom-ekr.c.o' -MF 'libinput-test-suite@exe/test_litest-device-wacom-ekr.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-wacom-ekr.c.o' -c ../test/litest-device-wacom-ekr.c",
+    "file": "../test/litest-device-wacom-ekr.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-wacom-hid4800-pen.c.o' -MF 'libinput-test-suite@exe/test_litest-device-wacom-hid4800-pen.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-wacom-hid4800-pen.c.o' -c ../test/litest-device-wacom-hid4800-pen.c",
+    "file": "../test/litest-device-wacom-hid4800-pen.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-wacom-intuos3-pad.c.o' -MF 'libinput-test-suite@exe/test_litest-device-wacom-intuos3-pad.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-wacom-intuos3-pad.c.o' -c ../test/litest-device-wacom-intuos3-pad.c",
+    "file": "../test/litest-device-wacom-intuos3-pad.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-wacom-intuos5-finger.c.o' -MF 'libinput-test-suite@exe/test_litest-device-wacom-intuos5-finger.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-wacom-intuos5-finger.c.o' -c ../test/litest-device-wacom-intuos5-finger.c",
+    "file": "../test/litest-device-wacom-intuos5-finger.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-wacom-intuos5-pad.c.o' -MF 'libinput-test-suite@exe/test_litest-device-wacom-intuos5-pad.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-wacom-intuos5-pad.c.o' -c ../test/litest-device-wacom-intuos5-pad.c",
+    "file": "../test/litest-device-wacom-intuos5-pad.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-wacom-intuos5-pen.c.o' -MF 'libinput-test-suite@exe/test_litest-device-wacom-intuos5-pen.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-wacom-intuos5-pen.c.o' -c ../test/litest-device-wacom-intuos5-pen.c",
+    "file": "../test/litest-device-wacom-intuos5-pen.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-wacom-isdv4-4200-pen.c.o' -MF 'libinput-test-suite@exe/test_litest-device-wacom-isdv4-4200-pen.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-wacom-isdv4-4200-pen.c.o' -c ../test/litest-device-wacom-isdv4-4200-pen.c",
+    "file": "../test/litest-device-wacom-isdv4-4200-pen.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-wacom-isdv4-e6-pen.c.o' -MF 'libinput-test-suite@exe/test_litest-device-wacom-isdv4-e6-pen.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-wacom-isdv4-e6-pen.c.o' -c ../test/litest-device-wacom-isdv4-e6-pen.c",
+    "file": "../test/litest-device-wacom-isdv4-e6-pen.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-wacom-isdv4-e6-finger.c.o' -MF 'libinput-test-suite@exe/test_litest-device-wacom-isdv4-e6-finger.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-wacom-isdv4-e6-finger.c.o' -c ../test/litest-device-wacom-isdv4-e6-finger.c",
+    "file": "../test/litest-device-wacom-isdv4-e6-finger.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-wacom-mobilestudio-pro-pad.c.o' -MF 'libinput-test-suite@exe/test_litest-device-wacom-mobilestudio-pro-pad.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-wacom-mobilestudio-pro-pad.c.o' -c ../test/litest-device-wacom-mobilestudio-pro-pad.c",
+    "file": "../test/litest-device-wacom-mobilestudio-pro-pad.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-waltop-tablet.c.o' -MF 'libinput-test-suite@exe/test_litest-device-waltop-tablet.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-waltop-tablet.c.o' -c ../test/litest-device-waltop-tablet.c",
+    "file": "../test/litest-device-waltop-tablet.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-wheel-only.c.o' -MF 'libinput-test-suite@exe/test_litest-device-wheel-only.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-wheel-only.c.o' -c ../test/litest-device-wheel-only.c",
+    "file": "../test/litest-device-wheel-only.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-xen-virtual-pointer.c.o' -MF 'libinput-test-suite@exe/test_litest-device-xen-virtual-pointer.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-xen-virtual-pointer.c.o' -c ../test/litest-device-xen-virtual-pointer.c",
+    "file": "../test/litest-device-xen-virtual-pointer.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-vmware-virtual-usb-mouse.c.o' -MF 'libinput-test-suite@exe/test_litest-device-vmware-virtual-usb-mouse.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-vmware-virtual-usb-mouse.c.o' -c ../test/litest-device-vmware-virtual-usb-mouse.c",
+    "file": "../test/litest-device-vmware-virtual-usb-mouse.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest-device-yubikey.c.o' -MF 'libinput-test-suite@exe/test_litest-device-yubikey.c.o.d' -o 'libinput-test-suite@exe/test_litest-device-yubikey.c.o' -c ../test/litest-device-yubikey.c",
+    "file": "../test/litest-device-yubikey.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_litest.c.o' -MF 'libinput-test-suite@exe/test_litest.c.o.d' -o 'libinput-test-suite@exe/test_litest.c.o' -c ../test/litest.c",
+    "file": "../test/litest.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_test-udev.c.o' -MF 'libinput-test-suite@exe/test_test-udev.c.o.d' -o 'libinput-test-suite@exe/test_test-udev.c.o' -c ../test/test-udev.c",
+    "file": "../test/test-udev.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_test-path.c.o' -MF 'libinput-test-suite@exe/test_test-path.c.o.d' -o 'libinput-test-suite@exe/test_test-path.c.o' -c ../test/test-path.c",
+    "file": "../test/test-path.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_test-pointer.c.o' -MF 'libinput-test-suite@exe/test_test-pointer.c.o.d' -o 'libinput-test-suite@exe/test_test-pointer.c.o' -c ../test/test-pointer.c",
+    "file": "../test/test-pointer.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_test-touch.c.o' -MF 'libinput-test-suite@exe/test_test-touch.c.o.d' -o 'libinput-test-suite@exe/test_test-touch.c.o' -c ../test/test-touch.c",
+    "file": "../test/test-touch.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_test-log.c.o' -MF 'libinput-test-suite@exe/test_test-log.c.o.d' -o 'libinput-test-suite@exe/test_test-log.c.o' -c ../test/test-log.c",
+    "file": "../test/test-log.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_test-tablet.c.o' -MF 'libinput-test-suite@exe/test_test-tablet.c.o.d' -o 'libinput-test-suite@exe/test_test-tablet.c.o' -c ../test/test-tablet.c",
+    "file": "../test/test-tablet.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_test-totem.c.o' -MF 'libinput-test-suite@exe/test_test-totem.c.o.d' -o 'libinput-test-suite@exe/test_test-totem.c.o' -c ../test/test-totem.c",
+    "file": "../test/test-totem.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_test-pad.c.o' -MF 'libinput-test-suite@exe/test_test-pad.c.o.d' -o 'libinput-test-suite@exe/test_test-pad.c.o' -c ../test/test-pad.c",
+    "file": "../test/test-pad.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_test-touchpad.c.o' -MF 'libinput-test-suite@exe/test_test-touchpad.c.o.d' -o 'libinput-test-suite@exe/test_test-touchpad.c.o' -c ../test/test-touchpad.c",
+    "file": "../test/test-touchpad.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_test-touchpad-tap.c.o' -MF 'libinput-test-suite@exe/test_test-touchpad-tap.c.o.d' -o 'libinput-test-suite@exe/test_test-touchpad-tap.c.o' -c ../test/test-touchpad-tap.c",
+    "file": "../test/test-touchpad-tap.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_test-touchpad-buttons.c.o' -MF 'libinput-test-suite@exe/test_test-touchpad-buttons.c.o.d' -o 'libinput-test-suite@exe/test_test-touchpad-buttons.c.o' -c ../test/test-touchpad-buttons.c",
+    "file": "../test/test-touchpad-buttons.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_test-trackpoint.c.o' -MF 'libinput-test-suite@exe/test_test-trackpoint.c.o.d' -o 'libinput-test-suite@exe/test_test-trackpoint.c.o' -c ../test/test-trackpoint.c",
+    "file": "../test/test-trackpoint.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_test-trackball.c.o' -MF 'libinput-test-suite@exe/test_test-trackball.c.o.d' -o 'libinput-test-suite@exe/test_test-trackball.c.o' -c ../test/test-trackball.c",
+    "file": "../test/test-trackball.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_test-misc.c.o' -MF 'libinput-test-suite@exe/test_test-misc.c.o.d' -o 'libinput-test-suite@exe/test_test-misc.c.o' -c ../test/test-misc.c",
+    "file": "../test/test-misc.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_test-keyboard.c.o' -MF 'libinput-test-suite@exe/test_test-keyboard.c.o.d' -o 'libinput-test-suite@exe/test_test-keyboard.c.o' -c ../test/test-keyboard.c",
+    "file": "../test/test-keyboard.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_test-device.c.o' -MF 'libinput-test-suite@exe/test_test-device.c.o.d' -o 'libinput-test-suite@exe/test_test-device.c.o' -c ../test/test-device.c",
+    "file": "../test/test-device.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_test-gestures.c.o' -MF 'libinput-test-suite@exe/test_test-gestures.c.o.d' -o 'libinput-test-suite@exe/test_test-gestures.c.o' -c ../test/test-gestures.c",
+    "file": "../test/test-gestures.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_test-switch.c.o' -MF 'libinput-test-suite@exe/test_test-switch.c.o.d' -o 'libinput-test-suite@exe/test_test-switch.c.o' -c ../test/test-switch.c",
+    "file": "../test/test-switch.c"
+  },
+  {
+    "directory": "/home/xuser/libinput/builddir",
+    "command": "cc -Ilibinput-test-suite@exe -I. -I.. -I../src -I../include -I/usr/include/libevdev-1.0/ -I/usr/include/libwacom-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -pthread  -MD -MQ 'libinput-test-suite@exe/test_test-quirks.c.o' -MF 'libinput-test-suite@exe/test_test-quirks.c.o.d' -o 'libinput-test-suite@exe/test_test-quirks.c.o' -c ../test/test-quirks.c",
+    "file": "../test/test-quirks.c"
+  }
+]

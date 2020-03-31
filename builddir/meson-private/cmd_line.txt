@@ -1,0 +1,6 @@
+[options]
+documentation = false
+prefix = /usr
+
+[properties]
+
